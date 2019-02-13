@@ -1,2 +1,2 @@
 # hfjs
-exercises from Head First JavaScript
+Collection of the exercises I completed while reading Head First JavaScript.
