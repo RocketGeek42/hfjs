@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Image Guess</title>
+        <style> 
+            body { 
+                margin: 20px; 
+            }
+            img {
+                margin: 20px;
+            }
+        </style>
+        <script>
+            window.onload = init;
+            function init() {
+                var image0 = getElementById("zero");
+                image0.onClick = showImageZero;
+                var image1 = getElementById("one");
+                image1.onClick = showImageOne;
+                var image2 = getElementById("two");
+                image2.onClick = showImageTwo;
+                var image3 = getElementById("three");
+                image3.onClick = showImageThree;
+                var image4 = getElementById("four");
+                image4.onClick = showImageFour;
+                var image5 = getElementById("five");
+                image5.onClick = showImageFive;
+            }
+            function showImageZero() {
+                var image = getElementById("zero")
+                image.src = "zero.jpg";
+            }
+            function showImageOne() {
+                var image = getElementById("one")
+                image.src = "one.jpg";
+            }
+            function showImageTwo() {
+                var image = getElementById("two")
+                image.src = "two.jpg";
+            }
+            function showImageThree() {
+                var image = getElementById("three")
+                image.src = "three.jpg";
+            }
+            function showImageFour() {
+                var image = getElementById("four")
+                image.src = "four.jpg";
+            }
+            function showImageFive() {
+                var image = getElementById("five")
+                image.src = "five.jpg";
+            }
+        </script>
+    </head>
+    <body>
+        <img id="zero" src="zeroblur.jpg">
+        <img id="one" src="oneblur.jpg">
+        <img id="two" src="twoblur.jpg">
+        <img id="three" src="threeblur.jpg">
+        <img id="four" src="fourblur.jpg">
+        <img id="five" src="fiveblur.jpg>"
+    </body>
+</html>
